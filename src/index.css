@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  font-size: 1em;
+}
+#corpo {
+  display: flex;
+}
+#cabecalho {
+  background-color: #22B14C;
+  color: #ffffff;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#cabecalho > h1 {
+  margin: 10px;
+}
+#imagem > #insta {
+  width: 80px;
+}
+#imagem > #twitter {
+  width: 80px;
+}
+#perfil {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+  color: #22B14C;
+  font-size: 30px;
+}
+button {
+  background-color: #22B14C;
+  color: #ffffff;
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#logo > #logos {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-left: 3px solid #22B14C;
+  border-right: 3px solid #22B14C;
+}
+#perfil > p {
+  margin: 10px;
+  align-self: start;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  font-size: 30px;
+  border-left: 3px solid #C4C4C4;
+  border-right: 3px solid #C4C4C4;
+  justify-content: space-between;
+}
+main > h2 {
+  text-align: center;
+}
+main > #feed {
+  border: 1px solid #C4C4C4;
+  text-align: center;
+}
+main > #feed > #encima {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main > #feed > #embaixo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+main > #feed > #embaixo > #lado {
+  display: flex;
+  justify-content: space-between;
+}
+main > #feed > #embaixo > #lado1 {
+  display: flex;
+  justify-content: space-between;
+}
+main > #feed > img {
+  width: 90%;
+  height: 80%;
+  margin: 10px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00000070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+.input-error {
+  border: 2px solid #ff0000;
+}
+.error-message {
+  color: #ff0000;
+  font-size: 20px;
+}
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.cancel-btn {
+  border: 1px solid #22B14C;
+  background: transparent;
+  color: #22B14C;
+}
+.enter-btn {
+  background-color: #22B14C;
+  color: #ffffff;
+  border: none;
+}
+
